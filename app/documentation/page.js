@@ -35,7 +35,19 @@ export default function Doc() {
     return (
         <body id='doc'>
             <header>
+                <a
+                href="/"
+                rel="noopener noreferrer">
+                    <Image
+                    src="/logosimple.svg"
+                    alt="Filechemy Logo"
+                    width={70}
+                    height={70}
+                    priority
+                    />
+                </a>
                 <h1>FileChemy documentation</h1>
+                
                 <p className="tagline">The perfect transmuter library for your file conversion needs</p>
                 </header>
 

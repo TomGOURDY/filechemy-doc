@@ -6,7 +6,7 @@ export default function Home() {
     <body>
       <header>
           <a
-            href="https://filechemy-doc.vercel.app/"
+            href="/"
             rel="noopener noreferrer"
           >
             <Image
@@ -18,7 +18,7 @@ export default function Home() {
             />
           </a>
         <nav>
-          <a className="navLink">documentation</a>
+          <a className="navLink" href="/documentation">documentation</a>
         </nav>
       </header>
       <main>
@@ -32,7 +32,7 @@ export default function Home() {
             />
           <h1>FileChemy</h1>
           <p>Convert anything, anywhere, anytime</p>
-          <a className="buttonClassic">Learn to use</a>
+          <a className="buttonClassic" href="/documentation">Learn to use</a>
         </section>
         <section className="section section-gray" id="useSection">
           <h2>Use</h2>
@@ -47,7 +47,7 @@ export default function Home() {
             className="iframeContent" 
             id="discoverVideo" 
             title="FileChemy Presentation Video" 
-            src="https://www.youtube.com/embed/Ss7MeMiHnKk?si=G-8PyrFT-vzWlq81" >
+            src="https://www.youtube.com/embed/4H5hfqucDRk?si=oN4_4nJ5qcZTOtzc" >
           </iframe>
           <p>We wanted to share an universal converter, open-source and easy to use for developpers and beginners alike</p>
         </section>
@@ -90,7 +90,7 @@ export default function Home() {
             <div className="footerContent" id="footerNav">
               <h3>Useful links</h3>
               <nav>
-                  <a className="footerLink">documentation</a>
+                  <a className="footerLink" href="/documentation">documentation</a>
                   <a className="footerLink" href="https://github.com/Ericar974/PFE-librairie">cooperate on github</a>
                   <a className="footerLink" href="https://www.npmjs.com/package/filechemy">find us on npm</a>
               </nav>
