@@ -107,7 +107,7 @@ export default function Doc() {
 
                 <section id="usage">
                 <h2>Example Usage</h2>
-                <pre><code>{`const fileTransmuter = require('file-transmuter');
+                <pre><code>{`const fileTransmuter = require('filechemy');
 
             (async ()=>{
             const result = await fileTransmuter.transmuteUrl('url.png', 'jpeg');
