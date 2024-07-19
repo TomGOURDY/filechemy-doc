@@ -10,12 +10,12 @@
   --background-light: #F5F5F5;
   --background-alt: #E5E5E5;
   --foreground: #010101;
-  --foreground-alt : 5A5A5A;
+  --foreground-alt : #5A5A5A;
   --primary-color: #00E96B; 
   --primary-color-var: #00BB56;
   --accent : #c7254e;
   --gradient-green : linear-gradient(90deg, rgba(0,255,117,1) 0%, rgba(0,187,86,1) 100%);
-  --gradient-violet : linear-gradient(90deg, rgba(167,99,255,1) 0%, rgba(85,0,196,1) 100%);
+  --gradient-violet : linear-gradient(90deg, rgb(167, 99, 255) 0%, rgba(85,0,196,1) 100%);
 }
 
 * {
@@ -369,7 +369,7 @@ footer {
     --background-alt: #272727;
     --background-light : #4A4A4A;
     --foreground: #FFFFFF;
-    --gradient-green : linear-gradient(90deg, rgba(0,255,117,1) 0%, rgba(107,255,175,1) 100%);
+    --gradient-green : linear-gradient(90deg, rgba(0,255,117,1) 0%, #6bffaf 100%);
   }
   
   html {
