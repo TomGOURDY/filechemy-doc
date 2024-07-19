@@ -179,6 +179,7 @@ code {
 footer { 
   text-align: center;
   padding: 2em;
+  color: var(--foreground);
 }
 
 .footerWrapper {
@@ -293,6 +294,7 @@ footer {
 #doc table th {
   background-color: var(--background-light);
   text-align: left;
+  color: var(--foreground);
 }
 
 .classicLink {
