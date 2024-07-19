@@ -14,6 +14,8 @@
   --primary-color: #00E96B; 
   --primary-color-var: #00BB56;
   --accent : #c7254e;
+  --gradient-green : linear-gradient(90deg, rgba(0,255,117,1) 0%, rgba(0,187,86,1) 100%);
+  --gradient-violet : linear-gradient(90deg, rgba(167,99,255,1) 0%, rgba(85,0,196,1) 100%);
 }
 
 * {
@@ -153,7 +155,7 @@ code {
 
 .buttonClassic {
   display: flex;
-  background: linear-gradient(90deg, rgba(0,187,86,1) 0%, rgba(5,46,24,0.75) 100%);
+  background: var(--gradient-green);
   color: var(--background);
   padding: 15px;
   border-radius: 15px;
@@ -168,7 +170,7 @@ code {
 }
 
 .buttonViolet {
-  background: linear-gradient(90deg, rgba(167,99,255,1) 0%, rgba(85,0,196,0.75) 100%);
+  background: var(--gradient-violet)
 }
 
 .buttonClassic:hover {
@@ -259,7 +261,7 @@ footer {
   margin: 0 auto;
   max-width: 60%;
   padding: 1em;
-  background: var(--background);
+  background: var(--background-light);
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 2em;
@@ -272,7 +274,7 @@ footer {
 }
 
 #doc footer {
-  background: #f4f4f4;
+  background: var(--background-alt);
 }
 
 #doc .back-to-top {
@@ -324,7 +326,7 @@ footer {
 .search-container button {
   padding: 0.5em 1em;
   font-size: 1em;
-  background: linear-gradient(90deg, rgba(0,187,86,1) 0%, rgba(5,46,24,0.75) 100%);
+  background: var(--gradient-green);
   color: var(--background);
   border: none;
   border-radius: 5px;
@@ -341,6 +343,7 @@ footer {
   left: 0;
   right: 0;
   background: #fff;
+  color: #010101;
   border: 1px solid #ddd;
   border-radius: 5px;
   z-index: 1000;
@@ -354,7 +357,8 @@ footer {
 }
 
 .suggestions li:hover {
-  background: var(--background-alt)
+  background: var(--background-alt);
+  color: #fff;
 }
 
 
@@ -363,7 +367,9 @@ footer {
   :root {
     --background: #010101;
     --background-alt: #272727;
+    --background-light : #4A4A4A;
     --foreground: #FFFFFF;
+    --gradient-green : linear-gradient(90deg, rgba(0,255,117,1) 0%, rgba(107,255,175,1) 100%);
   }
   
   html {
